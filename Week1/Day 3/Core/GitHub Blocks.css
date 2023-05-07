@@ -1,12 +1,33 @@
+.container{
+    width: 800px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.flex{ 
+    justify-content: space-around;
+    width:800px;
+    height: 250px;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    margin: 10px;
+    
+}
 img {
     height: 200px;
     width: 200px;
 }
 .box1{
-background-color: aqua;
-display: inline-flex;
+    background-color: #5bc9fa;
 }
 .box2{
-    background-color: #d0a2b1;
-    display: inline-flex;
+    background-color: #cfa2bb;
 }
+.box3{
+    background-color: white;
+}
+h1, p {
+    text-align: center;
+}
+

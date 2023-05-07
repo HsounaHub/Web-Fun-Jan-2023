@@ -1,0 +1,12 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+.box1{
+background-color: aqua;
+display: inline-flex;
+}
+.box2{
+    background-color: #d0a2b1;
+    display: inline-flex;
+}

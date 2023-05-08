@@ -1,23 +1,23 @@
-.container{
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.profile_container{
     display: flex;
     border-style: double;
-    align-items: center;
-    justify-content: flex-start;
-    width: 600px;
+    width: 800px;
     border-top: none;
+    flex-wrap: wrap;
 }
 .headbar{
     background-color: #17a2b8 ;
-    width: 600px;
+    width: 100%;
     height: 100px;
     border-style: double;
     border-bottom: none;
 }
 #usericon{
-    position: absolute;
     border-radius: 50%;
-    top: 9%;
-    left: 3%;
+    padding: 3%  ;
 }
 .bodytext{
     padding: 20px;

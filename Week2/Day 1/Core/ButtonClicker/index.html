@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="flex container_nav">
+            <h1>Dojonary</h1>
+            <input type="text" id="search" placeholder="search..." >
+            <button id="login_btn" onclick="logout(this)">Login</button>
+        </div>
+    </nav>
+    <div class="flex container">
+        <div class="flex left_cont">
+            <div class="box1">
+                <div class="left_box">
+                <ul>
+                    <li><strong>ninja</strong> </li>
+                    <li>noun</li>
+                    <li>plural: ninjas</li>
+                    <li><div class="btn_LB" onclick="alert('ninja was liked')">13 likes</div></li>
+                </ul>
+                </div>
+                <div class="right_box">
+                    <p>A practitioner skilled in the <span>japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="left_box">
+                    <ul>
+                        <li><strong>ninja</strong> </li>
+                        <li>noun</li>
+                        <li>plural: ninjas</li>
+                        <li><div class="btn_LB">17 likes</div></li>
+                    </ul>
+                    </div>
+                    <div class="right_box">
+                        <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                    </div>
+            </div>
+        </div>
+        <div class="right_cont">
+            <div class="box3">
+                <p>Dojonary is difined by you</p>
+                <button id="btn3" onclick="remove(this)">Add definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
